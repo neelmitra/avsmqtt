@@ -102,7 +102,7 @@ If you're a returning developer, click the Products -> CREATE PRODUCT button at 
 
 Congratulations! You now have created the Alexa Voice Product and the AWS resources. 
 
-See you in [lab2](./lab2.md). 
+### See you in [lab2](./lab2.md). 
 
 
 

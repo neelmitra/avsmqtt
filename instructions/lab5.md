@@ -58,4 +58,4 @@ Please login to the [AWS Lambda Console](https://console.aws.amazon.com/lambda/)
 
 Congratulations! You now have succesfully built a security remediation pipeline, that will protect your devices in an automated fashion. 
 
-### [Back to Home Page](https://s3.amazonaws.com/alexa-reinvent/labhome.html)
+### [Back to Home Page](./readme.md)

@@ -97,7 +97,7 @@ And check in the IoT *Test* console  , you will see encrypted voice event messag
 
 Congratulations! You now have access to the Alexa Voice Service APIs from your hardware and able to subscribe the messages from the hardware using AWS IoT console. 
 
-See you in [lab3](./lab3.md). 
+### See you in [lab3](./lab3.md). 
 
 
 
