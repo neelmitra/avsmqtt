@@ -28,11 +28,11 @@ To run this workshop , you will need the following setup :
 
 # You will be doing the labs below  -
 
-- Lab 1 : [Create Alexa Voice Product and AWS resources](https://s3.amazonaws.com/alexa-reinvent/lab1.html)
-- Lab 2 : [Enable Alexa on the NxP MCU kit](https://s3.amazonaws.com/alexa-reinvent/lab2.html)
-- Lab 3 : [Command and Control Alexa enabled IoT device(s)](https://s3.amazonaws.com/alexa-reinvent/lab3.html)
-- Lab 4 : [Bulk provision and Operate Alexa enabled IoT Devices](https://s3.amazonaws.com/alexa-reinvent/lab4.html)
-- Lab 5 : [Secure Alexa enabled IoT devices](https://s3.amazonaws.com/alexa-reinvent/lab5.html)
+- Lab 1 : [Create Alexa Voice Product and AWS resources](./lab1.md)
+- Lab 2 : [Enable Alexa on the NxP MCU kit](./lab2.md)
+- Lab 3 : [Command and Control Alexa enabled IoT device(s)](./lab3.md)
+- Lab 4 : [Bulk provision and Operate Alexa enabled IoT Devices](./lab4.md)
+- Lab 5 : [Secure Alexa enabled IoT devices](./lab5.md)
 
 # You are going to build the below solution today -
 ![alt text](./images/architecture.png)
