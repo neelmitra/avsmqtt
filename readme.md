@@ -1,4 +1,4 @@
-![alt text](../images//aws_logo.png)
+![alt text](./images//aws_logo.png)
 
 # Build Voice Controlled home devices with AWS IoT and Alexa 
 
@@ -35,5 +35,5 @@ To run this workshop , you will need the following setup :
 - Lab 5 : [Secure Alexa enabled IoT devices](./instructions/lab5.md)
 
 # You are going to build the below solution today -
-![alt text](../images/architecture.png)
+![alt text](./images/architecture.png)
 
