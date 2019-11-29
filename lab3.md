@@ -1,4 +1,4 @@
-![alt text](aws_logo.png)
+![alt text](./images/aws_logo.png)
 
 # Lab 3 : Command and Control Alexa enabled IoT device(s)
 

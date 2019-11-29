@@ -1,4 +1,4 @@
-![alt text](aws_logo.png)
+![alt text](./images/aws_logo.png)
 
 # Lab 4 : Bulk provision and Operate Alexa enabled IoT Devices
 
