@@ -1,4 +1,4 @@
-![alt text](./images/aws_logo.png)
+![alt text](../images//aws_logo.png)
 
 # Build Voice Controlled home devices with AWS IoT and Alexa 
 
@@ -30,10 +30,10 @@ To run this workshop , you will need the following setup :
 
 - Lab 1 : [Create Alexa Voice Product and AWS resources](./instructions/lab1.md)
 - Lab 2 : [Enable Alexa on the NxP MCU kit](./instructions/lab2.md)
-- Lab 3 : [Command and Control Alexa enabled IoT device(s)](./lab3.md)
+- Lab 3 : [Command and Control Alexa enabled IoT device(s)](./instructions/lab3.md)
 - Lab 4 : [Bulk provision and Operate Alexa enabled IoT Devices](./instructions/lab4.md)
 - Lab 5 : [Secure Alexa enabled IoT devices](./instructions/lab5.md)
 
 # You are going to build the below solution today -
-![alt text](./images/architecture.png)
+![alt text](../images//architecture.png)
 
