@@ -35,5 +35,5 @@ To run this workshop , you will need the following setup :
 - Lab 5 : [Secure Alexa enabled IoT devices](./instructions/lab5.md)
 
 # You are going to build the below solution today -
-![alt text](../images//architecture.png)
+![alt text](../images/architecture.png)
 
