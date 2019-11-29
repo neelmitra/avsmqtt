@@ -49,7 +49,7 @@ Please login to the [AWS Lambda Console](https://console.aws.amazon.com/lambda/)
 
     ![alt text](../images/policy-change.png)
 
-### Navigate to the [AWS Lambda Console](https://console.aws.amazon.com/lambda/) and select *Applications* (on the left pane) -> reinvent19avsmqtt* application. 
+Navigate to the [AWS Lambda Console](https://console.aws.amazon.com/lambda/) and select *Applications* (on the left pane) -> reinvent19avsmqtt* application. 
 
 4. Under Resources section, please select the Lambda function with Logical ID **DevDefenderResultsProcessorLambda**
 
