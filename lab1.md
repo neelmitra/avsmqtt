@@ -5,7 +5,7 @@
 In this lab, you will learn how to create a Alexa Voice Product. Then you will create the AWS resources required for the upcoming labs. 
 
 ## <span style="color:orange"> You will build step 1a of this architecture :</span>
-![alt text](arch-1a.png)
+![alt text](./images/arch-1a.png)
 
 ## A. Create AVS Product  
 
@@ -27,7 +27,7 @@ If you're a returning developer, click the Products -> CREATE PRODUCT button at 
 
     Will your device use a companion app?  **No**
 
-    ![alt text](avs1.png)
+    ![alt text](./images/avs1.png)
 
 4. Product Category: Other (Please specify)
     - Enter Value: Prototype
@@ -36,13 +36,13 @@ If you're a returning developer, click the Products -> CREATE PRODUCT button at 
 
 6. How will users interact with your product? : Hands-free
 
-    ![alt text](avs2.png)
+    ![alt text](./images/avs2.png)
 
 7. **Skip** the Upload an image step. This is not required for prototyping.
 
 8. Select **No** for all the other options and click Next to Continue. 
 
-    ![alt text](avs3.png)
+    ![alt text](./images/avs3.png)
 
 9. Click **CREATE NEW PROFILE**.
 
@@ -52,7 +52,7 @@ If you're a returning developer, click the Products -> CREATE PRODUCT button at 
     - Security Profile Description: AVS IoT Workshop
     - Click NEXT.
 
-    ![alt text](avs4.png)
+    ![alt text](./images/avs4.png)
 
     **Security Profile ID** will be generated for you.
 
@@ -63,7 +63,7 @@ If you're a returning developer, click the Products -> CREATE PRODUCT button at 
         -  You will need the Client Id in the next section
     - Check the box **I agree to the AVS ..** and Click **FINISH**.
 
-    ![alt text](otherdevicesplatforms2.png)
+    ![alt text](./images/otherdevicesplatforms2.png)
 
 <span style="color:orange">You will get the message, Product has been created. Click Ok and move to section B.</span>
 
@@ -75,11 +75,11 @@ If you're a returning developer, click the Products -> CREATE PRODUCT button at 
     - Click Accept Terms & Login
     - Click AWS Console 
 
-    ![alt text](eengine.png)
+    ![alt text](./images/eengine.png)
     
     - Click Open AWS console
 
-    ![alt text](awsconsole.png)
+    ![alt text](./images/awsconsole.png)
 
 2. Click here to create [cloudformation-stack-in-us-east-1]("https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?stackName=reinvent19avsmqtt&templateURL=https://s3.amazonaws.com/alexa-reinvent/avs-iot-cfn.yaml")
     
@@ -87,7 +87,7 @@ If you're a returning developer, click the Products -> CREATE PRODUCT button at 
 
     b. Leave rest of the options default and click Create
 
-    ![alt text](cfn.png)
+    ![alt text](./images/cfn.png)
 
     <span style="color:green">The cloudformation will take between 3-5 mins to complete. Once complete - </span>
     

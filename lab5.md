@@ -5,7 +5,7 @@
 In this lab, you will learn how to secure your Alexa enabled IoT devices from vulnerabilities. You will use IoT Device defender to create an Audit that will identify overly permissive policies. You will then create an automated security remediation pipeline to update those policies. 
 
 ## <span style="color:orange"> You will build step 1d of this architecture :</span>
-![alt text](arch-1d.png)
+![alt text](./images/arch-1d.png)
 
 ## A. Configure Device Defender Audit settings 
 Please login to the [AWS Lambda Console](https://console.aws.amazon.com/lambda/) and select *Applications* (on the left pane) -> reinvent19avsmqtt* application. 
@@ -30,7 +30,7 @@ Please login to the [AWS Lambda Console](https://console.aws.amazon.com/lambda/)
 
     a. You will notice the policy is wide open for all resources and actions. 
 
-    ![alt text](defenderpolicy.png)
+    ![alt text](./images/defenderpolicy.png)
 
     <span style="color:orange">In step 3 below, you will create an audit , which will identify any overly permissive policy in the AWS account and restrict it according to customer defined best practices. </span>
 
@@ -38,7 +38,7 @@ Please login to the [AWS Lambda Console](https://console.aws.amazon.com/lambda/)
 
     Keep everything as default and click Create 
 
-     ![alt text](audit-adhoc.png)
+     ![alt text](./images/audit-adhoc.png)
     
 
     You will be directed to the Audit Results page, please wait for the task to finish. It might take up-to 5 mins. 
@@ -47,7 +47,7 @@ Please login to the [AWS Lambda Console](https://console.aws.amazon.com/lambda/)
 
     -  You will notice the policy is now restricted. 
 
-    ![alt text](policy-change.png)
+    ![alt text](./images/policy-change.png)
 
 ### Navigate to the [AWS Lambda Console](https://console.aws.amazon.com/lambda/) and select *Applications* (on the left pane) -> reinvent19avsmqtt* application. 
 
