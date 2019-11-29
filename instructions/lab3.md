@@ -142,7 +142,4 @@ Log into the [Alexa developer console](https://developer.amazon.com/alexa/consol
 
 Congratulations! You now have configured your hardware device to interact with custom Alexa skills. You have also used IoT shadow to change the status of your device using voice commands. 
 
-See you in [lab4](https://s3.amazonaws.com/alexa-reinvent/lab4.html). 
-
-
-### [Back to Home Page](https://s3.amazonaws.com/alexa-reinvent/labhome.html)
+See you in [lab4](./lab4.md). 

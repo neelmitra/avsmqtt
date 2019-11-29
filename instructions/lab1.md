@@ -102,10 +102,7 @@ If you're a returning developer, click the Products -> CREATE PRODUCT button at 
 
 Congratulations! You now have created the Alexa Voice Product and the AWS resources. 
 
-See you in [lab2]((https://s3.amazonaws.com/alexa-reinvent/lab2.html)). 
-
-### [Back to Home Page](https://s3.amazonaws.com/alexa-reinvent/labhome.html)
-
+See you in [lab2](./lab2.md). 
 
 
 

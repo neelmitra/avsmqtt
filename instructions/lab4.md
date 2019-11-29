@@ -126,6 +126,4 @@ SHELL>version
 
 Congratulations! You now have  bulk provisioned your fleet of devices, operated them at scale and performed OTA update to upgrade it to the latest firmware. 
 
-See you in [lab5]((https://s3.amazonaws.com/alexa-reinvent/lab5.html)).
-
-### [Back to Home Page](https://s3.amazonaws.com/alexa-reinvent/labhome.html)
+See you in [lab5](./lab5.md).

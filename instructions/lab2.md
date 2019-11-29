@@ -95,9 +95,12 @@ Please login to the [AWS IoT Console](https://console.aws.amazon.com/iot/) and s
 
 And check in the IoT *Test* console  , you will see encrypted voice event messages appearing. 
 
-Congratulations! You now have access to the Alexa Voice Service APIs from your hardware and able to subscribe the messages from the hardware using AWS IoT console. See you in [lab3]((https://s3.amazonaws.com/alexa-reinvent/lab3.html)). 
+Congratulations! You now have access to the Alexa Voice Service APIs from your hardware and able to subscribe the messages from the hardware using AWS IoT console. 
 
-### [Back to Home Page](https://s3.amazonaws.com/alexa-reinvent/labhome.html)
+See you in [lab3](./lab3.md). 
+
+
+
 
 
 
