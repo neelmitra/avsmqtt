@@ -35,5 +35,5 @@ To run this workshop , you will need the following setup :
 - Lab 5 : [Secure Alexa enabled IoT devices](https://s3.amazonaws.com/alexa-reinvent/lab5.html)
 
 # You are going to build the below solution today -
-![alt text](architecture.png)
+![alt text](./images/architecture.png)
 
