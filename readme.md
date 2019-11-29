@@ -1,4 +1,4 @@
-![alt text](./imaes/aws_logo.png)
+![alt text](./images/aws_logo.png)
 
 # Build Voice Controlled home devices with AWS IoT and Alexa 
 
