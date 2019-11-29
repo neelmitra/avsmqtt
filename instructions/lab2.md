@@ -1,19 +1,19 @@
-![alt text](./images/aws_logo.png)
+![alt text](../images/aws_logo.png)
 
 # Lab 2 : Enable Alexa on the NxP MCU kit
 
 In this lab, you will learn how to configure the NxP microcontroller kit to connect to Alexa Voice service and AWS IoT Core. You will start to use Alexa voice commands on the kit. 
 
 ## <span style="color:orange"> You will continue to build step 1a of this architecture :</span>
-![alt text](./images/arch-1a.png)
+![alt text](../images/arch-1a.png)
 
 ## A.  Configure the NxP kit with Alexa
-![alt text](./images/nxp-kit.png)
+![alt text](../images/nxp-kit.png)
 
 ## <span style="color:orange"> You need to establish serial connection to the device : </span>
 
 1. Please connect both the USB ports to the adapter provided, and connect the adapter to the laptop. 
-    ![alt text](./images/laptop.jpg) 
+    ![alt text](../images/laptop.jpg) 
 
 
 2. Connect to the hardware kit using the below instructions - 
@@ -29,7 +29,7 @@ In this lab, you will learn how to configure the NxP microcontroller kit to conn
 
     <span style="color:green">Please enter the commands similar to the screenshot below - </span>
 
-    ![alt text](./images/serial.png) 
+    ![alt text](../images/serial.png) 
 
     Copy the commands from here : 
 
@@ -53,32 +53,32 @@ In this lab, you will learn how to configure the NxP microcontroller kit to conn
 
     You will get the User code and the URL from the console : 
 
-    ![alt text](./images/reg1.png) 
+    ![alt text](../images/reg1.png) 
 
 4.  Copy the user code from the logs and navigate to [amazon.code](https://amazon.com/us/code) on your browser to authenticate - 
 
     - Login with the same email , if prompted, that you used for the Alexa developers console prior in Lab 1
     - Paste the user code and submit. *Registration successful* should appear on the web page 
 
-    ![alt text](./images/lwa.png) 
+    ![alt text](../images/lwa.png) 
 
 6. Check back on the serial terminal - 
     - Device will periodically check for a token, may take up to 60 seconds
     - After that it will register and be ready to use.
     - The log will show if any errors. 
 
-    ![alt text](./images/reg2.png) 
+    ![alt text](../images/reg2.png) 
 
 
 
     <span style="color:orange"> If connection and auth is successful , the board will only have the power green led on.
     
-    ![alt text](./images/board1.png) 
+    ![alt text](../images/board1.png) 
 
     <span style="color:orange">If the board is muted there will be a red led on, along with the green power led. 
     </span>
 
-    ![alt text](./images/board1.png) 
+    ![alt text](../images/board1.png) 
 
 ## <span style="color:green"> Try Alexa, time in las vegas </span>
 

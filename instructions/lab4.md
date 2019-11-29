@@ -1,11 +1,11 @@
-![alt text](./images/aws_logo.png)
+![alt text](../images/aws_logo.png)
 
 # Lab 4 : Bulk provision and Operate Alexa enabled IoT Devices
 
 In the last 2 labs , you have configured a hardware kit to be Alexa enabled and successfully registered it with AWS IoT Core. In the real world, you might need to provision hundreds of thousands of these devices. In this lab, you will learn how to bulk provision fleet of IoT devices, organize and manage them using IoT Device Management. You will also learn to perform search operations on these devices. Finally you will learn how to perform an over the air update on your IoT devices using IoT jobs.  
 
 ## <span style="color:orange"> You will build step 1c of this architecture :</span>
-![alt text](./images/arch-1c.png)
+![alt text](../images/arch-1c.png)
 
 ## A. Bulk provision your fleet
 
@@ -18,7 +18,7 @@ Please login to the [AWS Lambda Console](https://console.aws.amazon.com/lambda/)
     -   A window will appear, keep everything default, put the Event name as **test** , click **Create** button
     -  This will configure the test event and bring you back to the lambda console 
 
-    ![alt text](./images/dlambdatest.png)
+    ![alt text](../images/dlambdatest.png)
 
 3. Click on *Test* (top right corner) , check if the *Execution Result* is a success 
     - If it fails, check the logs to identify the problem. Ask support staff for help. 
@@ -33,7 +33,7 @@ Please navigate to the [AWS IoT Console](https://console.aws.amazon.com/iot/) an
     - Click on the Groups tab , You will find multiple parent & child groups 
     - Click on the Things tab, and feel free to associate different things to different groups.
 
-    ![alt text](./images/group.png)
+    ![alt text](../images/group.png)
 
 
 ## B. Search your fleet
@@ -43,7 +43,7 @@ Please navigate to the [AWS IoT Console](https://console.aws.amazon.com/iot/) an
 7. Navigate to the [AWS IoT Console](https://console.aws.amazon.com/iot/) home page again and click on *Manage* (on the left pane) -> *Things*
 8. Click on *Search Things* textbox -> Choose Search (*Locate or identify specific devices*)
 
-    ![alt text](./images/search.png)
+    ![alt text](../images/search.png)
 
     - Try the following operations in the search box  -
         
@@ -53,7 +53,7 @@ Please navigate to the [AWS IoT Console](https://console.aws.amazon.com/iot/) an
         ```
         Copy the above statement in the Search textbox and Click *Search*
 
-        ![alt text](./images/searchq.png)
+        ![alt text](../images/searchq.png)
 
         b. Find all things with firmaware version v1 and disconnected at this time  
         ```
@@ -85,11 +85,11 @@ SHELL>version
 
 12. Click on Create a job -> Create OTA update job
 
-    ![alt text](./images/ota.png)
+    ![alt text](../images/ota.png)
 
     a. Choose only the NxP device from the drowndown -> Click Next
 
-    ![alt text](./images/otad.png)
+    ![alt text](../images/otad.png)
 
     b. Select *Use my custom signed firmware image* 
 
@@ -105,13 +105,13 @@ SHELL>version
 
     h. Choose the IAM role matching  \*otaafrrole\* in the dropdown and click Next 
 
-    ![alt text](./images/afrota.png)
+    ![alt text](../images/afrota.png)
 
     i. Choose Job type as "job will complete after deploying to selected devices.."
 
     j. Put a random ID # and click Create 
 
-    ![alt text](./images/afrotac.png)
+    ![alt text](../images/afrotac.png)
 
     <span style="color:lightgreen">The job should take around 5-7 mins to complete. 
 
