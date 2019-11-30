@@ -66,7 +66,8 @@
 2. Open the COM port in a terminal tool, such as Putty.
     - Download the PuTTY terminal emulator [here](http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe)
 
-3. Once connected to the COM Port through Putty, Type characters. The characters are echoed back from the COM port.
+3. Once connected to the COM Port through Putty, Type the commands in [lab2](./lab2.md)
+    
     ![alt text](../images/putty.png)
 
 ## Drivers 
