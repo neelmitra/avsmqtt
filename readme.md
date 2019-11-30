@@ -20,9 +20,9 @@ To run this workshop , you will need the following setup :
 
 ### Software on the laptop
 1. Serial terminal - Click the below links for instructions
-    -   Mac -  [Screen](https://software.intel.com/en-us/setting-up-serial-terminal-on-system-with-mac-os-x)    
-    -   Windows - [PuTTY](https://software.intel.com/en-us/setting-up-serial-terminal-on-system-with-windows)
-    -   Linux -  [Screen](https://software.intel.com/en-us/setting-up-serial-terminal-on-system-with-linux) 
+    -   Mac -  [Screen](./instructions/serial.md)    
+    -   Windows - [PuTTY](./instructions/serial.md)
+    -   Linux -  [Screen](./instructions/serial.md) 
 
 <span style="color:brown">**Once you are done with the setup above , please start with Lab1.** </span>
 
