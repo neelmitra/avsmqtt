@@ -58,14 +58,20 @@
 
 # Windows : Connect over serial terminal
 
-1. A COM port is enumerated in the Device Manager. If it prompts for CDC driver installation, see the next chapter to install the CDC driver.
+1. Open Device Manager. A COM port is enumerated in the Device Manager. 
+    -  If it prompts for CDC driver installation, see the Drivers section below to install the CDC driver. 
 
-2. Open the COM port in a terminal tool, such as Putty / Tera Term.
+    ![alt text](../images/windows.png)
 
-3. Type characters. The characters are echoed back from the COM port.
+2. Open the COM port in a terminal tool, such as Putty.
+    - Download the PuTTY terminal emulator [here](http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe)
+
+3. Once connected to the COM Port through Putty, Type characters. The characters are echoed back from the COM port.
+    ![alt text](../images/putty.png)
 
 ## Drivers 
-1. if issues with drivers, please refer to detailed [instructions](https://alexa-reinvent.s3.amazonaws.com/readme.pdf) here
+1. if issues with drivers on windows, please refer to detailed [instructions](https://alexa-reinvent.s3.amazonaws.com/readme.pdf) here. 
+    - Reach out to AWS support staff for the drivers software. 
 
 
 ### Continue with [lab2](./lab2.md) now. 
