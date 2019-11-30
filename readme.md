@@ -20,8 +20,8 @@ To run this workshop , you will need the following setup :
 
 ### Software on the laptop
 1. Serial terminal - Click the below links for instructions
-    -   Mac -  [Screen](./instructions/serial.md)    
-    -   Windows - [PuTTY](./instructions/serial.md)
+    -   Mac -  [screen](./instructions/serial.md)    
+    -   Windows - [putty](./instructions/serial.md)
     -   Linux -  [minicom](./instructions/serial.md) 
 
 <span style="color:brown">**Once you are done with the setup above , please start with Lab1.** </span>

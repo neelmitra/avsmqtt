@@ -17,8 +17,8 @@ In this lab, you will learn how to configure the NxP microcontroller kit to conn
 
 
 2. Connect to the hardware kit using the below instructions - 
-    -   Mac -  [Screen](./serial.md)
-    -   Windows - [PuTTY](./serial.md)
+    -   Mac -  [screen](./serial.md)
+    -   Windows - [putty](./serial.md)
     -   Linux -  [minicom](./serial.md)
 
 
