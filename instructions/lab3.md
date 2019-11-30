@@ -9,7 +9,7 @@ In this lab, you will learn how to perform command and control on Alexa enabled 
 
 ## A. Configure Lambda functions for interacting with Alexa skills
 
-### Please login to the [AWS Lambda Console](https://console.aws.amazon.com/lambda/) and select *Applications* (on the left pane) -> reinvent19avsmqtt* application. ###
+### Please login to the [AWS Lambda Console](https://console.aws.amazon.com/lambda/) and select *Applications* (on the left pane) -> reinventavsmqtt* application. ###
 
 ![alt text](../images/lambdahome.png)
 
@@ -39,7 +39,7 @@ In this lab, you will learn how to perform command and control on Alexa enabled 
 
     ![alt text](../images/nxpshadow.png) 
 
-### Please navigate back to the [AWS Lambda Console](https://console.aws.amazon.com/lambda/) and select *Applications* (on the left pane) -> reinvent19avsmqtt* application. ###
+### Please navigate back to the [AWS Lambda Console](https://console.aws.amazon.com/lambda/) and select *Applications* (on the left pane) -> reinventavsmqtt* application. ###
 
 6. Under Resources section, please select the Lambda function with Logical ID *"AlexaSkillProcessorLambda"* 
     - Check *"Alexa Skills Kit"* is added as a trigger

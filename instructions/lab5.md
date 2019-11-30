@@ -8,7 +8,7 @@ In this lab, you will learn how to secure your Alexa enabled IoT devices from vu
 ![alt text](../images/arch-1d.png)
 
 ## A. Configure Device Defender Audit settings 
-Please login to the [AWS Lambda Console](https://console.aws.amazon.com/lambda/) and select *Applications* (on the left pane) -> reinvent19avsmqtt* application. 
+Please login to the [AWS Lambda Console](https://console.aws.amazon.com/lambda/) and select *Applications* (on the left pane) -> reinventavsmqtt* application. 
 1. Under Resources section, please select the Lambda function with Logical ID **DeviceDefenderAuditLambda**
 2. Click the *Select a test event dropdown* (top right corner) -> Choose Configure test events. 
     -   A window will appear, keep everything default, put the Event name as **test** , click **Create** button
@@ -49,7 +49,7 @@ Please login to the [AWS Lambda Console](https://console.aws.amazon.com/lambda/)
 
     ![alt text](../images/policy-change.png)
 
-Navigate to the [AWS Lambda Console](https://console.aws.amazon.com/lambda/) and select *Applications* (on the left pane) -> reinvent19avsmqtt* application. 
+Navigate to the [AWS Lambda Console](https://console.aws.amazon.com/lambda/) and select *Applications* (on the left pane) -> reinventavsmqtt* application. 
 
 4. Under Resources section, please select the Lambda function with Logical ID **DevDefenderResultsProcessorLambda**
 

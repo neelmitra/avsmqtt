@@ -11,7 +11,7 @@ In the last 2 labs , you have configured a hardware kit to be Alexa enabled and 
 
 <span style="color:orange">You will bulk provision your fleet using a lambda function created for you. Please look into the code to learn more about the steps. </span>
 
-Please login to the [AWS Lambda Console](https://console.aws.amazon.com/lambda/) and select *Applications* (on the left pane) -> reinvent19avsmqtt* application. 
+Please login to the [AWS Lambda Console](https://console.aws.amazon.com/lambda/) and select *Applications* (on the left pane) -> reinventavsmqtt* application. 
 1. Under Resources section, please select the Lambda function with Logical ID **DeviceManagementLambda**
 
 2. Click the *Select a test event dropdown* (top right corner) -> Choose Configure test events. 
