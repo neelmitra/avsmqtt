@@ -89,16 +89,21 @@ If you're a returning developer, click the Products -> CREATE PRODUCT button at 
 
     ![alt text](../images/cfn.png)
 
-    <span style="color:green">The cloudformation will take between 3-5 mins to complete. Once complete - </span>
+    <span style="color:orange">The cloudformation will take between 3-5 mins to complete. Once complete - </span>
     
 3. Go to the outputs tab of cloudformation and copy the *AWS Account ID* and *AWS IoT Endpoint URL* 
 
+4. Please navigate to the [AWS IoT Console](https://console.aws.amazon.com/iot/) and select *Settings* (on the left bottom pane)
 
-<span style="color:orange">In the next lab you will need the following from this lab :
+5. Copy the IoT endpoint URL 
+
+    ![alt text](../images/iotend.png)
+
+    <span style="color:orange">In the next lab you will need the following from this lab :
     
     - AVS Client ID and Product ID available in the downloaded config.json file from Section A - Step 11
 
-    - AWS Account ID and AWS IoT Endpoint Url available in Cloudformation output tab from Section B - Step 2
+    - AWS IoT Endpoint Url from Section B - Step 5
 
 Congratulations! You now have created the Alexa Voice Product and the AWS resources. 
 
