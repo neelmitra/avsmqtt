@@ -22,7 +22,7 @@ To run this workshop , you will need the following setup :
 1. Serial terminal - Click the below links for instructions
     -   Mac -  [Screen](./instructions/serial.md)    
     -   Windows - [PuTTY](./instructions/serial.md)
-    -   Linux -  [Screen](./instructions/serial.md) 
+    -   Linux -  [minicom](./instructions/serial.md) 
 
 <span style="color:brown">**Once you are done with the setup above , please start with Lab1.** </span>
 

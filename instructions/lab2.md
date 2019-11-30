@@ -17,12 +17,9 @@ In this lab, you will learn how to configure the NxP microcontroller kit to conn
 
 
 2. Connect to the hardware kit using the below instructions - 
-    -   Mac -  [Screen](https://software.intel.com/en-us/setting-up-serial-terminal-on-system-with-mac-os-x)
-    -   Windows - [PuTTY](https://software.intel.com/en-us/setting-up-serial-terminal-on-system-with-windows)
-        - if issues in connecting, please refer to here [instructions](https://alexa-reinvent.s3.amazonaws.com/readme.pdf)
-            - [drivers-check with Danny]()
-    -   Linux -  [Putty/Screen/minicom](https://software.intel.com/en-us/setting-up-serial-terminal-on-system-with-linux) 
-        -   if issues in connecting, please refer to here [instructions](https://alexa-reinvent.s3.amazonaws.com/readme.pdf)
+    -   Mac -  [Screen](./serial.md)
+    -   Windows - [PuTTY](./serial.md)
+    -   Linux -  [minicom](./serial.md)
 
 
 2. Once you are connected to device, using the respective terminal software , please run the below commands , one by one, in the SHELL : 
