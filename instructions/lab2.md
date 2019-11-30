@@ -37,7 +37,7 @@ In this lab, you will learn how to configure the NxP microcontroller kit to conn
 
     set_aws_endpoint_url "copy IoT core URL from cloudformation outputs in lab1 "
 
-    set_aws_account_id "copy AWS Account ID from cloudformation outputs in lab1"
+    set_aws_account_id "copy AWS Account ID provided to you"
 
     set_cbl_mode 1
 
