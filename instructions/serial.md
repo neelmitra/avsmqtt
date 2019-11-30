@@ -26,6 +26,9 @@
 
 <span style="color:orange">To end a session in Screen, type Ctrl + A then Ctrl + K. You will be prompted to end the session, press y.</span>
 
+### Continue with [lab2](./lab2.md) now. 
+
+
 # Linux : Connect over serial terminal
 
 1. Open a new Terminal window. Enter the command: 
@@ -49,6 +52,9 @@
     ```
 
     The ttyACM0 can be opened successfully and user can input characters by using the minicom.
+
+### Continue with [lab2](./lab2.md) now. 
+
 
 # Windows : Connect over serial terminal
 
