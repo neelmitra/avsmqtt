@@ -52,6 +52,15 @@
 
 # Windows : Connect over serial terminal
 
+1. A COM port is enumerated in the Device Manager. If it prompts for CDC driver installation, see the next chapter to install the CDC driver.
+
+2. Open the COM port in a terminal tool, such as Putty / Tera Term.
+
+3. Type characters. The characters are echoed back from the COM port.
+
+## Drivers (need to finish the instructions)
+
+1. Below are the steps to install the CDC driver on Windows 7. Similar steps apply for Windows XP. Step 1. Click "Update Driver Software..."
 
 ### Continue with [lab2](./lab2.md) now. 
 
