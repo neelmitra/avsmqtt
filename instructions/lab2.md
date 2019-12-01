@@ -86,7 +86,7 @@ In this lab, you will learn how to configure the NxP microcontroller kit to conn
 Please login to the [AWS IoT Console](https://console.aws.amazon.com/iot/) and select *Manage* (on the left pane) -> Things. 
 
 1. Check if you can see the Thing created with the serial # of your NxP kit (on the right pane). 
-2. Click on *Monitor* (left partner) and check on the graphs (in the right pane) for successfull Connections and Messages.  
+2. Click on *Monitor* (left pane) and check on the graphs (in the right pane) for successfull Connections and Messages.  
 
 To learn more about AVS Integration for AWS IoT, please click [here](https://developer.amazon.com/docs/alexa-voice-service/avs-for-aws-iot-overview.html).
 
