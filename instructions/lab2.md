@@ -86,7 +86,10 @@ In this lab, you will learn how to configure the NxP microcontroller kit to conn
 Please login to the [AWS IoT Console](https://console.aws.amazon.com/iot/) and select *Manage* (on the left pane) -> Things. 
 
 1. Check if you can see the Thing created with the serial # of your NxP kit (on the right pane). 
-2. Click on *Test* (left partner) and subscribe to the following topic - $aws/alexa/ais/v1/<clientId>/event 
+2. Click on *Test* (left partner) and subscribe to the following topic - $aws/alexa/ais/v1/clientId/event 
+
+To learn more about AVS Integration for AWS IoT, please click [here](https://developer.amazon.com/docs/alexa-voice-service/avs-for-aws-iot-overview.html).
+
 
 ## <span style="color:green"> Try Alexa, time in las vegas </span> once again on the device 
 
