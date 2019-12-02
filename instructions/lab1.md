@@ -97,11 +97,11 @@ If you're a returning developer, click the Products -> CREATE PRODUCT button at 
 
 4. Copy the IoT endpoint URL 
 
-    <span style="color:orange">It might be different for you , than in the screenshot here</span>
+    <font color="red">The endpoint Url might be different for you , than in the screenshot here</font>
 
     ![alt text](../images/iotend.png)
 
-    <span style="color:orange">In the next lab you will need the following from this lab :
+    <font color="orange">In the next lab you will need the following from this lab : </font>
     
     - AVS Client ID and Product ID available in the downloaded config.json file from Section A - Step 11
 
