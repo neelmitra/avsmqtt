@@ -41,12 +41,18 @@ In this lab, you will learn how to configure the NxP microcontroller kit to conn
 
     set_cbl_mode 1
 
-    enable_usb_log
+    setup Condensate "!Dev1ces+Are+Com1ng!"
 
-    logs
     ```
 
-    <span style="color:orange">Please power recycle the device. If the session exits for some reason , please connect to the serial terminal again.</span>
+    This will restart your device , please connect back to the device using seral command and run the below. 
+
+    ```
+      enable_usb_log
+      logs
+    ```
+
+    <span style="color:orange">If the session exits for some reason anywhere, please connect to the serial terminal again.</span>
 
     You will get the User code and the URL from the console : 
 
