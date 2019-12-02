@@ -130,12 +130,12 @@ Log into the [Alexa developer console](https://developer.amazon.com/alexa/consol
 
         - say *"Alexa open re invent"*
 
-        - *"Ask re invent crib status"*
+        - *"crib status"*
             - this should return the state of the shadow of your nxp device.
 
         - say *"Alexa open re invent"*
 
-        - *"Ask re invent set crib speed HIGH"*
+        - *"set crib speed HIGH"*
             - this should update the desired state of the crib speed to "HIGH".
 
 9. Go to [AWS IoT Console](https://console.aws.amazon.com/iot/) and select Manage -> Things -> click the NXP device. 
