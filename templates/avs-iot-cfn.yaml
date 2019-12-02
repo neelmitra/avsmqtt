@@ -2,9 +2,12 @@ AWSTemplateFormatVersion: 2010-09-09
 Description: 'AWS CloudFormation template for the re:invent 2019'
 Parameters:
   DeviceName:
-    Default: Type the hardware serial number 
-    Description: Hardware Serial 
+    Description: Hardware Serial number provided to you
     Type: String
+    MinLength: 1
+    MaxLength: 11
+    AllowedPattern: ^[a-zA-Z0-9]*$
+    ConstraintDescription: You must specify a value for the device name
 Resources:
   IoTloggingRole:
     Type: 'AWS::IAM::Role'
