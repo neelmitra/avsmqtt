@@ -40,7 +40,9 @@ If you're a returning developer, click the Products -> CREATE PRODUCT button at 
 
 7. **Skip** the Upload an image step. This is not required for prototyping.
 
-8. Select **No** for all the other options and click Next to Continue. 
+8. Select the options as below and click Next to Continue.
+
+    <span style="color:orange">Please use the AWS Account # provided to you for the workshop.</span>
 
     ![alt text](../images/avs3.png)
 
