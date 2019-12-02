@@ -9,7 +9,7 @@ In this lab, you will learn how to perform command and control on Alexa enabled 
 
 ## A. Configure Lambda functions for interacting with Alexa skills
 
-### Please login to the [AWS Lambda Console](https://console.aws.amazon.com/lambda/) and select *Applications* (on the left pane) -> reinventavsmqtt* application. ###
+##### Please login to the [AWS Lambda Console](https://console.aws.amazon.com/lambda/) and select *Applications* (on the left pane) -> reinventavsmqtt* application. ###
 
 ![alt text](../images/lambdahome.png)
 
@@ -29,7 +29,7 @@ In this lab, you will learn how to perform command and control on Alexa enabled 
 
 <span style="color:lightgreen">If step 3 is a success, proceed to validate if the shadow is updated for the thing.</span>
 
-### Please navigate to the [AWS IoT Console](https://console.aws.amazon.com/iot/) and select *Manage* (on the left pane) -> *Things* ### 
+##### Please navigate to the [AWS IoT Console](https://console.aws.amazon.com/iot/) and select *Manage* (on the left pane) -> *Things* ### 
 
 4. On the right pane , you will see the  *NxP* device 
 
@@ -39,7 +39,7 @@ In this lab, you will learn how to perform command and control on Alexa enabled 
 
     ![alt text](../images/nxpshadow.png) 
 
-### Please navigate back to the [AWS Lambda Console](https://console.aws.amazon.com/lambda/) and select *Applications* (on the left pane) -> reinventavsmqtt* application. ###
+##### Please navigate back to the [AWS Lambda Console](https://console.aws.amazon.com/lambda/) and select *Applications* (on the left pane) -> reinventavsmqtt* application. ###
 
 6. Under Resources section, please select the Lambda function with Logical ID *"AlexaSkillProcessorLambda"* 
     - Check *"Alexa Skills Kit"* is added as a trigger
