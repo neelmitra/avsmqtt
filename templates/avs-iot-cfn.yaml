@@ -7,7 +7,7 @@ Parameters:
     MinLength: 1
     MaxLength: 11
     AllowedPattern: ^[a-zA-Z0-9]*$
-    ConstraintDescription: You must specify a value for the device name
+    ConstraintDescription: You must specify the device name
 Resources:
   IoTloggingRole:
     Type: 'AWS::IAM::Role'
