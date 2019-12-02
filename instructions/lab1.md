@@ -96,7 +96,8 @@ If you're a returning developer, click the Products -> CREATE PRODUCT button at 
 3. Please navigate to the [AWS IoT Console](https://console.aws.amazon.com/iot/) and select *Settings* (on the left bottom pane)
 
 4. Copy the IoT endpoint URL 
-    <span style="color:orange">It might be different for you than in the screenshot here</span>
+
+    <span style="color:orange">It might be different for you , than in the screenshot here</span>
 
     ![alt text](../images/iotend.png)
 
