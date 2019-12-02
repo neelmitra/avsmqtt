@@ -73,9 +73,9 @@ Log into the [Alexa developer console](https://developer.amazon.com/alexa/consol
 
 3. Create Interaction Schema
 
-    - Download the [Skill Schema definition](http://alexa-reinvent.s3.amazonaws.com/en-US.json) json file.
+    - Open the [Skill Schema definition](../templates/skills.json) json file.
     - On the left pane, click on "JSON Editor" option from the "Interaction Model" section.
-    - Drag and drop the downloaded skill.json file and click on "Save Model".
+    - Copy the contents of the skill.json file and click on "Save Model".
 
      ![alt text](../images/json.png)
 
