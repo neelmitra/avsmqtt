@@ -83,7 +83,7 @@ If you're a returning developer, click the Products -> CREATE PRODUCT button at 
 
     ![alt text](../images/awsconsole.png)
 
-2. Click here to create [cloudformation-stack-east-1](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?stackName=reinventavsmqtt&templateURL=https://s3.amazonaws.com/alexa-reinvent/avs-iot-cfn.yaml)
+2. Click here to create [cloudformation-stack-us-east-1](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?stackName=reinventavsmqtt&templateURL=https://s3.amazonaws.com/alexa-reinvent/avs-iot-cfn.yaml)
     
     a. Enter the hardware device serial number, provided to you, as a parameter to template
 
