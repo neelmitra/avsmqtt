@@ -98,7 +98,7 @@ To learn more about AVS Integration for AWS IoT, please click [here](https://dev
 
 ## <span style="color:green"> Try Alexa, time in las vegas </span> once again on the device 
 
-And check in the IoT *Test* console  , you will see encrypted voice event messages appearing. 
+And check in the IoT *Test* console  , you will see messages appearing in the monitor console. 
 
 Congratulations! You now have access to the Alexa Voice Service APIs from your hardware and able to subscribe the messages from the hardware using AWS IoT console. 
 
