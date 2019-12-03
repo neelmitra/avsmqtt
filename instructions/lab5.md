@@ -20,7 +20,7 @@ Please login to the [AWS Lambda Console](https://console.aws.amazon.com/lambda/)
 
 ## B. Audit device configurations 
 
-1. Navigate to the [AWS IoT Console](https://console.aws.amazon.com/iot/) home page and click on Manage (on the left pane) -> Defend -> Settings 
+1. Navigate to the [AWS IoT Console](https://console.aws.amazon.com/iot/) home page and click Defend (on the left pane) -> Settings 
 
     a. Check the audit "IoT policies overly permissive" is enabled (on the right pane). 
 
