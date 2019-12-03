@@ -22,7 +22,7 @@ In this lab, you will learn how to configure the NxP microcontroller kit to conn
     -   Linux -  [minicom](./serial.md)
 
 
-2. Once you are connected to device, using the respective terminal software , please run the below commands , one by one, in the SHELL : 
+2. Once you are connected to device, using the respective terminal software , please **ENTER** and run the below commands , one by one, in the SHELL : 
 
     <span style="color:green">Please enter the commands similar to the screenshot below - </span>
 
@@ -41,11 +41,10 @@ In this lab, you will learn how to configure the NxP microcontroller kit to conn
 
     set_cbl_mode 1
 
-    setup Condensate "!Dev1ces+Are+Com1ng!"
-
+    reset
     ```
 
-    This will restart your device , please connect back to the device using seral command and run the below. 
+    This will restart your device , please connect back to the device using serial command and run the below. 
 
     ```
       enable_usb_log
