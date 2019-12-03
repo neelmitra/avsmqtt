@@ -15,6 +15,8 @@
 5. In the list of connected devices, look for a device that contains cu.usbmodem*
 
 6. Connect to the USB serial device using the Terminal screen utility by entering the command: 
+    
+    Please replace XXXXX in the following command with the modem number you got back from step 5
     ```
     screen /dev/cu.usbmodemXXXXX 115200 -L
     ```

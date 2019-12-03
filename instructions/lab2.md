@@ -80,7 +80,7 @@ In this lab, you will learn how to configure the NxP microcontroller kit to conn
     <span style="color:orange">If the board is muted there will be a red led on, along with the green power led. 
     </span>
 
-    ![alt text](../images/board1.png) 
+    ![alt text](../images/board2.png) 
 
 ## <span style="color:green"> Try Alexa, time in las vegas </span>
 
