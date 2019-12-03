@@ -90,14 +90,13 @@ def enable_v2logs(c_iot,loggingroleArn):
     except Exception as e:
         raise e
 
-def update_shadow(c_iot,thingName):
-    try:
-        payload = {"state":{"desired":{"welcome": "aws-iot1234","status": "ON","brightness": "MEDIUM"}}}
-        
-        response = c_iot.update_thing_shadow(
-        thingName=thingName,
-        payload=json.dumps(payload)
-    )
+# def update_shadow(c_iot,thingName):
+#     try:
+#         payload = {"desired":{"welcome":"aws-iot","status":"ON","brightness":"MEDIUM"},"reported":{"welcome":"aws-iot","status":"ON","brightness":"MEDIUM"}}
+#         response = c_iot.update_thing_shadow(
+#         thingName=thingName,
+#         payload=json.dumps(payload)
+#     )
 
     except Exception as e:
         raise e
@@ -127,9 +126,9 @@ def lambda_handler(event, context):
     #Enable logging to send data to cloudwatch
     enable_v2logs(c_iot,loggingroleArn)
     
-    c_iot = boto3.client('iot-data')
+    #c_iot = boto3.client('iot-data')
     #Create shadow document for the hardware 
-    update_shadow(c_iot,thingName)
+    #update_shadow(c_iot,thingName)
     
     #Add group associations correctly for diff things 
 
