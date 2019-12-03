@@ -114,17 +114,12 @@ Log into the [Alexa developer console](https://developer.amazon.com/alexa/consol
         - *"Ask re invent set crib speed LOW"*
             - this should update the desired state of the crib speed to "LOW".
 
-7. Go to [AWS IoT Console](https://console.aws.amazon.com/iot/) and select Manage -> Things -> click the NXP device. 
-        
-    -  Click on the shadow option on the left pane and see the shadow document updated with desired state set to HIGH.
-
-
 8. <span style="color:orange">Test the skill from the NxP Hardware now</span>
 
     - Unmute the microphone on the kit (press SW1) if muted
         - red led on the board indicates the microphone is muted
     
-        ![alt text](../images/mute.png)
+        ![alt text](../images/board1.png)
     
     - Try the below commands  
 
@@ -137,9 +132,6 @@ Log into the [Alexa developer console](https://developer.amazon.com/alexa/consol
 
         - *"set crib speed HIGH"*
             - this should update the desired state of the crib speed to "HIGH".
-
-9. Go to [AWS IoT Console](https://console.aws.amazon.com/iot/) and select Manage -> Things -> click the NXP device. 
-    -   Click on the shadow option on the left pane and see the shadow document updated with desired state set to HIGH.
 
 
 Congratulations! You now have configured your hardware device to interact with custom Alexa skills. You have also used IoT shadow to change the status of your device using voice commands. 
