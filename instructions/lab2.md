@@ -35,7 +35,7 @@ In this lab, you will learn how to configure the NxP microcontroller kit to conn
 
     set_avs_product_id "copy Alexa Product ID from config.json"
 
-    set_aws_endpoint_url "copy IoT core URL from cloudformation outputs in lab1 "
+    set_aws_endpoint_url "copy IoT core URL from lab1 "
 
     set_aws_account_id "copy AWS Account ID provided to you"
 
