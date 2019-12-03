@@ -77,7 +77,7 @@ Please navigate to the [AWS IoT Console](https://console.aws.amazon.com/iot/) an
 ```
 SHELL>version 
 ```
-    It should show version 1.0.0 
+    It should show version 1.0.6
 
 10. Download the firmware image and the code signing signature file for your laptop from here and unzip it here ->  [codesigning.zip](https://alexa-reinvent.s3.amazonaws.com/codesigning.zip)
 
