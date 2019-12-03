@@ -15,7 +15,7 @@ logger.setLevel(logging.INFO)
 
 def update_shadow(c_iot,thingName):
     try:
-        payload = {"state":{"desired":{"welcome": "aws-iot1234","status": "ON","brightness": "MEDIUM"}}}
+        payload = payload = {"desired":{"welcome":"aws-iot","status":"ON","brightness":"MEDIUM"},"reported":{"welcome":"aws-iot","status":"ON","brightness":"MEDIUM"}}
         
         response = c_iot.update_thing_shadow(
             thingName=thingName,

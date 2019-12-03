@@ -113,7 +113,7 @@ SHELL>version
 
     ![alt text](../images/afrotac.png)
 
-    <span style="color:lightgreen">The job should take around 5-7 mins to complete. 
+    <span style="color:lightgreen">The led will turn blue and the job should take around 5-7 mins to complete. Check if the job status is complete and DONOT power off the kit during the process. 
 
 
 13. On your laptop, check the firmware version on the NxP kit through the serial console again :  
