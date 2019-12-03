@@ -103,7 +103,7 @@ SHELL>version
 
     g. For the 2 pathname textboxes , type "AppB" 
 
-    h. Choose the IAM role matching  \*otaafrrole\* in the dropdown and click Next 
+    h. Choose the IAM role matching  reinvent\*AFROTARole\* in the dropdown and click Next 
 
     ![alt text](../images/afrota.png)
 
