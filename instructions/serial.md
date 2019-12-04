@@ -73,7 +73,7 @@
     ![alt text](../images/putty.png)
 
 ## Drivers 
-1. if issues with drivers on windows, please refer to detailed [instructions](https://alexa-reinvent.s3.amazonaws.com/readme.pdf) here. 
+1. if issues with drivers on windows, please refer to detailed [instructions](https://alexa-reinvent.s3.amazonaws.com/Drivers.zip) here. 
     - Reach out to AWS support staff for the drivers software. 
 
 
