@@ -4,8 +4,8 @@
 
 In the last few labs , you have configured a hardware kit to be Alexa enabled and successfully registered it with AWS IoT Core. In the real world, you might need to provision hundreds of thousands of these devices. In this lab, you will learn how to bulk provision fleet of IoT devices, organize and manage them using IoT Device Management. You will also learn to perform search operations on these devices. Finally you will learn how to perform an over the air update on your IoT devices using IoT jobs.  
 
-## <span style="color:orange"> You will build step 1c of this architecture :</span>
-![alt text](../images/arch-1c.png)
+## <span style="color:orange"> You will build step 1d of this architecture :</span>
+![alt text](../images/arch-1d.png)
 
 ## A. Bulk provision your fleet
 

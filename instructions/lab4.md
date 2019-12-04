@@ -4,8 +4,8 @@
 
 In this lab, you will learn how to secure your Alexa enabled IoT devices from vulnerabilities. You will use IoT Device defender to create an Audit that will identify overly permissive policies. You will then create an automated security remediation pipeline to update those policies. 
 
-## <span style="color:orange"> You will build step 1d of this architecture :</span>
-![alt text](../images/arch-1d.png)
+## <span style="color:orange"> You will build step 1c of this architecture :</span>
+![alt text](../images/arch-1c.png)
 
 ## A. Configure Device Defender Audit settings 
 Please login to the [AWS Lambda Console](https://console.aws.amazon.com/lambda/) and select *Applications* (on the left pane) -> reinventavsmqtt* application. 
