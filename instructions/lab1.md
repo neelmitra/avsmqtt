@@ -77,35 +77,42 @@ If you're a returning developer, click the Products -> CREATE PRODUCT button at 
     - Click Accept Terms & Login
     - Click AWS Console 
 
+    Ignore the name of the event (dry run) in the screenshot, it might be different for your workshop , something like IoT304. 
+
     ![alt text](../images/eengine.png)
     
     - Click Open AWS console
 
     ![alt text](../images/awsconsole.png)
 
-2. Click here to create [cloudformation-stack-us-east-1](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?stackName=reinventavsmqtt&templateURL=https://s3.amazonaws.com/alexa-reinvent/avs-iot-cfn.yaml)
+2. Please navigate to the [AWS IoT Console](https://console.aws.amazon.com/iot/) 
+
+    - select Manage -> Things and copy the name of the Thing (on the right pane)
+    - This is the serial # of your NxP kit , you need in step 4 
+
+    ![alt text](../images/thing.png)
     
-    a. Enter the hardware device serial number, provided to you, as a parameter to template
+3. select *Settings* (on the left bottom pane)  and copy the IoT endpoint URL 
+
+    <font color="red">The endpoint Url might be different for you , than in the screenshot here</font>
+
+    ![alt text](../images/iotend.png)
+
+4. Click here to create [cloudformation-stack-us-east-1](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?stackName=reinventavsmqtt&templateURL=https://s3.amazonaws.com/alexa-reinvent/avs-iot-cfn.yaml)
+    
+    a. Enter the serial number, you copied earlier
 
     b. Leave rest of the options default and click Create
 
     ![alt text](../images/cfn.png)
 
     <span style="color:orange">The cloudformation will take between 3-5 mins to complete. Once complete - </span>
-    
-3. Please navigate to the [AWS IoT Console](https://console.aws.amazon.com/iot/) and select *Settings* (on the left bottom pane)
-
-4. Copy the IoT endpoint URL 
-
-    <font color="red">The endpoint Url might be different for you , than in the screenshot here</font>
-
-    ![alt text](../images/iotend.png)
 
     <font color="orange">In the next lab you will need the following from this lab : </font>
     
     - AVS Client ID and Product ID available in the downloaded config.json file from Section A - Step 11
 
-    - AWS IoT Endpoint Url from Section B - Step 4
+    - AWS IoT Endpoint Url from Section B - Step 3
 
 Congratulations! You now have created the Alexa Voice Product and the AWS resources. 
 
