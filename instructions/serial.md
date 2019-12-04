@@ -28,7 +28,7 @@
 
 <span style="color:orange">To end a session in Screen, type Ctrl + A then Ctrl + K. You will be prompted to end the session, press y.</span>
 
-### Continue with [lab2](./lab2.md) now. 
+### Continue with [lab1](./lab1.md) now. 
 
 
 # Linux : Connect over serial terminal
@@ -55,7 +55,7 @@
 
     The ttyACM0 can be opened successfully and user can input characters by using the minicom.
 
-### Continue with [lab2](./lab2.md) now. 
+### Continue with [lab1](./lab1.md) now. 
 
 
 # Windows : Connect over serial terminal
@@ -68,7 +68,7 @@
 2. Open the COM port in a terminal tool, such as Putty.
     - Download the PuTTY terminal emulator [here](http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe)
 
-3. Once connected to the COM Port through Putty, Type the commands in [lab2](./lab2.md)
+3. Once connected to the COM Port through Putty, Type the commands in [lab2](./lab2.md) after you are done with lab1
     
     ![alt text](../images/putty.png)
 
@@ -77,7 +77,7 @@
     - Reach out to AWS support staff for the drivers software. 
 
 
-### Continue with [lab2](./lab2.md) now. 
+### Continue with [lab1](./lab1.md) now. 
 
 
 
