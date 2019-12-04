@@ -109,9 +109,9 @@ Log into the [Alexa developer console](https://developer.amazon.com/alexa/consol
        ![alt text](../images/test.png)
    
    - On the left pane, try the below commands.
-        - *"Ask re invent crib status"*
+        - *"Ask re invent swing status"*
             - this should return the state of the shadow of your nxp device.
-        - *"Ask re invent set crib speed LOW"*
+        - *"Ask re invent set swing speed LOW"*
             - this should update the desired state of the crib speed to "LOW".
 
 8. <span style="color:orange">Test the skill from the NxP Hardware now</span>
