@@ -7,7 +7,47 @@ In this lab, you will learn how to create a Alexa Voice Product. Then you will c
 ## <span style="color:orange"> You will build step 1a of this architecture :</span>
 ![alt text](../images/arch-1a.png)
 
-## A. Create AVS Product  
+## A.  Create AWS resources 
+
+1. Login to AWS Console 
+    -   Launch [Team Dashboard](https://dashboard.eventengine.run/dashboard)
+    - Paste the 12 digit Hash key provided to you by AWS 
+    - Click Accept Terms & Login
+    - Your Team name is your Account ID (copy the full #) 
+        - you will need it in section B - Step 8 of this lab
+    - Click AWS Console 
+ 
+
+    ![alt text](../images/account.png)
+    
+    - Click Open AWS console
+
+    ![alt text](../images/awsconsole.png)
+
+2. Please navigate to the [AWS IoT Console](https://console.aws.amazon.com/iot/) 
+
+    - select Manage -> Things and copy the name of the Thing (on the right pane)
+    - This is the serial # of your NxP kit , you need in step 4 
+
+    ![alt text](../images/thing.png)
+    
+3. select *Settings* (on the left bottom pane)  and copy the IoT endpoint URL 
+
+    <font color="red">The endpoint Url might be different for you , than in the screenshot here</font>
+
+    ![alt text](../images/iotend.png)
+
+4. Click here to create [cloudformation-stack-us-east-1](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?stackName=reinventavsmqtt&templateURL=https://s3.amazonaws.com/alexa-reinvent/avs-iot-cfn.yaml)
+    
+    a. Enter the serial number, you copied earlier
+
+    b. Leave rest of the options default and click Create
+
+    ![alt text](../images/cfn.png)
+
+    <span style="color:orange">The cloudformation will take between 3-5 mins to complete. Once complete - </span>
+
+## B. Create AVS Product  
 
 After you've created an Amazon developer account, you'll need to create a product and security profile. This will enable your software client to connect to AVS.
 
@@ -68,46 +108,6 @@ If you're a returning developer, click the Products -> CREATE PRODUCT button at 
     ![alt text](../images/otherdevicesplatforms2.png)
 
 <span style="color:orange">You will get the message, Product has been created. Click Ok and move to section B.</span>
-
-## B.  Create AWS resources 
-
-1. Login to AWS Console 
-    -   Launch [Team Dashboard](https://dashboard.eventengine.run/dashboard)
-    - Paste the 12 digit Hash key provided to you by AWS 
-    - Click Accept Terms & Login
-    - Click AWS Console 
-
-    Ignore the name of the event (dry run) in the screenshot, it might be different for your workshop , something like IoT304. 
-
-    ![alt text](../images/eengine.png)
-    
-    - Click Open AWS console
-
-    ![alt text](../images/awsconsole.png)
-
-2. Please navigate to the [AWS IoT Console](https://console.aws.amazon.com/iot/) 
-
-    - select Manage -> Things and copy the name of the Thing (on the right pane)
-    - This is the serial # of your NxP kit , you need in step 4 
-
-    ![alt text](../images/thing.png)
-    
-3. select *Settings* (on the left bottom pane)  and copy the IoT endpoint URL 
-
-    <font color="red">The endpoint Url might be different for you , than in the screenshot here</font>
-
-    ![alt text](../images/iotend.png)
-
-4. Click here to create [cloudformation-stack-us-east-1](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?stackName=reinventavsmqtt&templateURL=https://s3.amazonaws.com/alexa-reinvent/avs-iot-cfn.yaml)
-    
-    a. Enter the serial number, you copied earlier
-
-    b. Leave rest of the options default and click Create
-
-    ![alt text](../images/cfn.png)
-
-    <span style="color:orange">The cloudformation will take between 3-5 mins to complete. Once complete - </span>
-
     <font color="orange">In the next lab you will need the following from this lab : </font>
     
     - AVS Client ID and Product ID available in the downloaded config.json file from Section A - Step 11
