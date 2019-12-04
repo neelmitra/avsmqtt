@@ -18,13 +18,13 @@ To run this workshop , you will need the following setup :
     - NxP hardware kit 
    </span>
 
-### Software on the laptop
+<!-- ### Software on the laptop
 1. Serial terminal - Click the below links for instructions
     -   Mac -  [screen](./instructions/serial.md)    
     -   Windows - [putty](./instructions/serial.md)
     -   Linux -  [minicom](./instructions/serial.md) 
 
-<span style="color:brown">**Once you are done with the setup above , please start with Lab1.** </span>
+<span style="color:brown">**Once you are done with the setup above , please start with Lab1.** </span> -->
 
 # You will be doing the labs below  -
 
