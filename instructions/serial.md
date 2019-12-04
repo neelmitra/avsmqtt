@@ -68,7 +68,7 @@
 2. Open the COM port in a terminal tool, such as Putty.
     - Download the PuTTY terminal emulator [here](http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe)
 
-3. Once connected to the COM Port through Putty, Type the commands as below,  after you are done with [lab1](./lab1.md)
+3. Once connected to the COM Port through Putty, Type the commands as below :
     
     ![alt text](../images/putty.png)
 
