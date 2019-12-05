@@ -28,7 +28,7 @@
 
 <span style="color:orange">To end a session in Screen, type Ctrl + A then Ctrl + K. You will be prompted to end the session, press y.</span>
 
-### Continue with [lab2](./lab2.md) now. 
+### Continue with [lab2](./lab2.md) from section 3 onwards. 
 
 
 # Linux : Connect over serial terminal
@@ -70,7 +70,7 @@
     Select Exit 
 
 
-### Continue with [lab2](./lab2.md) now. 
+### Continue with [lab2](./lab2.md) from section 3 onwards. 
 
 
 # Windows : Connect over serial terminal
@@ -92,7 +92,7 @@
     - Reach out to AWS support staff for the drivers software. 
 
 
-### Continue with [lab2](./lab2.md) now. 
+### Continue with [lab2](./lab2.md) from section 3 onwards. 
 
 
 
