@@ -2,7 +2,7 @@
 
 # Build Voice Controlled home devices with AWS IoT and Alexa 
 
-In this workshop, you will learn to build an Alexa device and how you can manage and secure these devices using AWS IoT services. We want to teach you the building blocks for implementing IoT solutions on voice enabled devices. You'll configure Amazon FreeRTOS on the hardware, configure it to connect to Alexa voice service and interact with custom Alexa skills. Then you will onboard fleet of devices to AWS IoT Core, manage the devices using AWS IoT Device Management and secure the fleet using AWS IoT device defender. Finally you will use IoT events to build an event workflow. 
+In this workshop, you will learn to build an Alexa device and how you can manage and secure these devices using AWS IoT services. We want to teach you the building blocks for implementing IoT solutions on voice enabled devices. You'll configure Amazon FreeRTOS on the hardware, configure it to connect to Alexa voice service and interact with custom Alexa skills. Then you will onboard fleet of devices to AWS IoT Core, manage the devices using AWS IoT Device Management and secure the fleet using AWS IoT device defender. 
 
 
 # <span style="color:orange">Please ensure you have the below setup, before you proceed with the labs :</span>
