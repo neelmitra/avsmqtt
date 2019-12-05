@@ -53,13 +53,13 @@
 
         ![alt text](../images/avs3.png)
 
-    - If its correct, please re-run the serial commands in lab 2 , enure there is no typo 
+    - If its correct, please re-run the serial commands in lab 2 , ensure there is no typo 
 
     - Power recycle the device and complete the LWA registration again 
 
 10. Post LWA registration, why I am getting SSL errors on the logs ? 
 
-    -  please re-run the serial commands in lab 2 , enure there is no typo 
+    -  please re-run the serial commands in lab 2 , ensure there is no typo 
 
     - Power recycle the device and complete the LWA registration again 
 
