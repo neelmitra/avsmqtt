@@ -53,7 +53,7 @@ In this lab, you will learn how to create a Alexa Voice Product. Then you will c
 
 ## B. Create AVS Product  
 
-After you've created an Amazon developer account, you'll need to create a product and security profile. This will enable your software client to connect to AVS.
+After you've created an Amazon developer account, you'll need to create a product and security profile. This will enable your hardware kit (NxP) to connect to Alexa Voice Service.
 
 Log in to [AVS console](https://developer.amazon.com/alexa/console/avs/home). 
 
