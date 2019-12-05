@@ -34,7 +34,8 @@ In this lab, you will learn how to create a Alexa Voice Product. Then you will c
 
     ![alt text](../images/thing.png)
     
-3. Click *Settings* (on the left bottom pane) of IoT home page and copy the IoT endpoint URL 
+3. Click *Settings* (on the left bottom pane) of IoT Console            
+    - copy the IoT endpoint URL to a local notepad
 
     <font color="red">The endpoint Url might be different for you , than in the screenshot here</font>
 
@@ -115,7 +116,7 @@ If you're a returning developer, click the Products -> CREATE PRODUCT button at 
     
     - AVS Client ID and Product ID available in the downloaded config.json file from Section A - Step 11
 
-    - AWS IoT Endpoint Url from Section B - Step 3
+    - AWS IoT Endpoint Url from Section B - Step 4
 
 Congratulations! You now have created the Alexa Voice Product and the AWS resources. 
 
