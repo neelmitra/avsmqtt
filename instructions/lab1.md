@@ -118,7 +118,7 @@ If you're a returning developer, click the Products -> CREATE PRODUCT button at 
 
     - AWS IoT Endpoint Url from Section B - Step 4
 
-Congratulations! You now have created the Alexa Voice Product and the AWS resources. 
+Congratulations! You now have created the Alexa Voice Product and the AWS resources. In the next lab , you will embed these configurations on the hardware , so they can communicate with Alexa Voice service and AWS IoT services. 
 
 ### See you in [lab2](./lab2.md). 
 
