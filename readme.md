@@ -12,7 +12,7 @@ To run this workshop , you will need the following setup :
 ### Resources 
 1. Laptop (Windows / Mac / Linux)
 2. Amazon Developer Account
-    - [Create one here if you dont have](https://developer.amazon.com/login.html) 
+    - [Create one here in **US region** if you dont have](https://developer.amazon.com/login.html) 
 3. <span style="color:orange">To be provided for the workshop by AWS :
     - AWS Account ID  
     - NxP hardware kit 
