@@ -22,25 +22,23 @@ In this lab, you will learn how to configure the NxP microcontroller kit to conn
     -   Linux -  [screen / minicom](./serial.md)
 
 
-2. Once you are connected to device, using the respective terminal software , please **ENTER** and run the below commands , one by one, in the SHELL : 
-
-    <span style="color:green">Please enter the commands similar to the screenshot below - </span>
-
-    ![alt text](../images/serial.png) 
-
-    Run the below commands to configure the kit to connect to Alexa Voice Services and AWS IoT services. 
+2. Run the below commands to configure the kit to connect to Alexa Voice Services and AWS IoT services. 
     
     - The Client id and Product Id is required for the kit to successfully authenticate to Alexa Voice service 
     - AWS Account ID and Endpoint URL is required for the kit to successfully authenticate to AWS IoT core
     - Therefater you enable the code based linking for registering this kit to your Amazon Developer account 
     - Reset reboots the device with the latest confiigurations 
 
+    Please enter the commands similar to the screenshot below **One by One**
+
+    ![alt text](../images/serial.png) 
+
     ```
     set_avs_client_id "copy Client id from config.json"
 
     set_avs_product_id "copy Alexa Product ID from config.json"
 
-    set_aws_endpoint_url "copy IoT core URL from lab1 "
+    set_aws_endpoint_url "copy IoT core URL from lab1 notes"
 
     set_aws_account_id copy_AWS_Account_ID_from_lab1_no_qoutes
 
@@ -59,7 +57,7 @@ In this lab, you will learn how to configure the NxP microcontroller kit to conn
       logs
     ```
 
-    <span style="color:orange">If the session exits for some reason anywhere, please connect to the serial terminal again.</span>
+    **If the session exits for some reason anywhere, please connect to the serial terminal again.**
 
     You will get the User code and the URL from the console : 
 
