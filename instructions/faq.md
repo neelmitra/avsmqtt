@@ -38,13 +38,17 @@
       enable_usb_log
       logs
     ```
-7. I have setup all the commands, why Alexa is still not talking to me ? 
+
+7. How do I exit the serial console ? 
+    - type CTRL-A and then CTRL-K and then yes 
+
+8. I have setup all the commands, why Alexa is still not talking to me ? 
     
     - Check the logs on the serial console (follow step 6 above). 
 
     - Try power recycling the device, if log output is static
         
-8. LWA Registration shows successful on the webpage, but   devices still dont respond ?
+9. LWA Registration shows successful on the webpage, but   devices still dont respond ?
     - Check the Account ID is linked correctly on the AVS Product page 
 
         ![alt text](../images/avs3.png)
@@ -53,13 +57,13 @@
 
     - Power recycle the device and complete the LWA registration again 
 
-9. Post LWA registration, why I am getting SSL errors on the logs ? 
+10. Post LWA registration, why I am getting SSL errors on the logs ? 
 
     -  please re-run the serial commands in lab 2 , enure there is no typo 
 
     - Power recycle the device and complete the LWA registration again 
 
-10. Alexa is not responding or taking long to respond , after successful registration ? 
+11. Alexa is not responding or taking long to respond , after successful registration ? 
 
     - Please check if there is a blinking red icon , that implies network connectivity issues
     - Wait for sometime and power recycle the device if required 
