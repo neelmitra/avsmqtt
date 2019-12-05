@@ -28,6 +28,7 @@ In this lab, you will learn how to create a Alexa Voice Product. Then you will c
 
 3. Please navigate to the [AWS IoT Console](https://console.aws.amazon.com/iot/) 
 
+    - Click Get started (if prompted)
     - select Manage -> Things 
         - copy the name of the Thing (on the right pane)
     - This is the serial # of your device (NxP kit) , that you need in step 5 
