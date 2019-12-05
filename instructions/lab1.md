@@ -14,9 +14,11 @@ In this lab, you will learn how to create a Alexa Voice Product. Then you will c
     - Paste the 12 digit Hash key provided to you by AWS 
     - Click Accept Terms & Login
 
-2. Copy the Account ID to a local notepad
+    ![alt text](../images/hash.png)
+
+2. Next, Copy the Account ID to a local notepad
     - Team name is the Account Id (see screenshot below)
-    - DONOT edit the Team Name (a.k.a Account ID)
+    - **DONOT EDIT** the Team Name (a.k.a Account ID)
     - Click AWS Console 
  
 
