@@ -126,7 +126,7 @@ Log into the [Alexa developer console](https://developer.amazon.com/alexa/consol
         - say *"Alexa open re invent"*
 
         - *"crib status"*
-            - this should return the state of the shadow of your nxp device.
+            - this should return the state of your nxp device.
 
         - say *"Alexa open re invent"*
 
