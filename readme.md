@@ -35,6 +35,8 @@ In this workshop, you will learn to build an Alexa device and how you can manage
 - Lab 4 : [Secure Alexa enabled IoT devices](./instructions/lab4.md)
 - Lab 5 : [Bulk provision and Operate Alexa enabled IoT Devices](./instructions/lab5.md)
 
+# FAQ  - 
+- [Answers](./instructions/faq.md) to some common questions
 
 # You are going to build the below solution today -
 ![alt text](./images/architecture.png)
