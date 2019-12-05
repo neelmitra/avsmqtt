@@ -13,9 +13,10 @@ In this lab, you will learn how to create a Alexa Voice Product. Then you will c
     -   Launch [Team Dashboard](https://dashboard.eventengine.run/dashboard)
     - Paste the 12 digit Hash key provided to you by AWS 
     - Click Accept Terms & Login
-    - Team name is Account ID 
-        - Copy the account # locally to notepad) 
-        - DONOT edit the Team Name (you will lose the Account ID otherwise)
+
+2. Copy the Account ID to a local notepad
+    - Team name is the Account Id (see screenshot below)
+    - DONOT edit the Team Name (a.k.a Account ID)
     - Click AWS Console 
  
 
@@ -25,14 +26,15 @@ In this lab, you will learn how to create a Alexa Voice Product. Then you will c
 
     ![alt text](../images/awsconsole.png)
 
-2. Please navigate to the [AWS IoT Console](https://console.aws.amazon.com/iot/) 
+3. Please navigate to the [AWS IoT Console](https://console.aws.amazon.com/iot/) 
 
-    - select Manage -> Things and copy the name of the Thing (on the right pane)
-    - This is the serial # of your NxP kit , you need in step 4 
+    - select Manage -> Things 
+        - copy the name of the Thing (on the right pane)
+    - This is the serial # of your device (NxP kit) , that you need in step 5 
 
     ![alt text](../images/thing.png)
     
-3. select *Settings* (on the left bottom pane)  and copy the IoT endpoint URL 
+3. Click *Settings* (on the left bottom pane) of IoT home page and copy the IoT endpoint URL 
 
     <font color="red">The endpoint Url might be different for you , than in the screenshot here</font>
 
