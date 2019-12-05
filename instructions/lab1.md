@@ -34,7 +34,7 @@ In this lab, you will learn how to create a Alexa Voice Product. Then you will c
 
     ![alt text](../images/thing.png)
     
-3. Click *Settings* (on the left bottom pane) of IoT Console            
+3. Click *Settings* (on the left bottom pane) of [AWS IoT Console](https://console.aws.amazon.com/iot/)             
     - copy the IoT endpoint URL to a local notepad
 
     <font color="red">The endpoint Url might be different for you , than in the screenshot here</font>
