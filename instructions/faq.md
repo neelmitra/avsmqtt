@@ -1,6 +1,6 @@
 # Frequently Asked Questions 
 
-1. How do I login to AWS Console 
+1. **How do I login to AWS Console ?**
     -   Launch [Team Dashboard](https://dashboard.eventengine.run/dashboard)
     - Paste the 12 digit Hash key provided to you by AWS 
     - Click Accept Terms & Login
@@ -11,7 +11,7 @@
 
 2. Where do I get the AWS Account # ? 
     - Launch [Team Dashboard](https://dashboard.eventengine.run/dashboard)
-    - Team Name is the AWS Account # (screenshot above)
+    - AWS Account # is the Team name (screenshot above)
 
 3. Where do I get the Device Serial # ? 
     - Please navigate to the [AWS IoT Console](https://console.aws.amazon.com/iot/) 
