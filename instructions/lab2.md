@@ -22,10 +22,10 @@ In this lab, you will learn how to configure the NxP microcontroller kit to conn
     -   Linux -  [screen / minicom](./serial.md)
 
 
-2. Run the below commands to configure the kit to connect to Alexa Voice Services and AWS IoT services. 
+2. Read the below and then run the commands to configure the kit to connect to Alexa Voice Services and AWS IoT services. 
     
-    - The Client id and Product Id is required for the kit to successfully authenticate to Alexa Voice service 
-    - AWS Account ID and Endpoint URL is required for the kit to successfully authenticate to AWS IoT core
+    - *Client id* and *Product Id* is required for the kit to successfully authenticate to Alexa Voice service 
+    - *AWS Account ID* and *Endpoint URL* is required for the kit to successfully authenticate to AWS IoT core
     - Therefater you enable the code based linking for registering this kit to your Amazon Developer account 
     - Reset reboots the device with the latest confiigurations 
 
