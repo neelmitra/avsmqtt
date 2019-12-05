@@ -50,10 +50,31 @@
 3. To configure the ttyACM0 as the default console and other configurations, run
 
     ```
-    minicom
+    sudo minicom -s
     ```
 
     The ttyACM0 can be opened successfully and user can input characters by using the minicom.
+
+4. Navigate to Serial Port setup 
+
+    ![alt text](../images/mini-1.png)
+
+5. Select A 
+
+    ![alt text](../images/mini-2.png)
+
+6. Modify the serial Device to /dev/ttyACM0
+
+    ![alt text](../images/mini-3.png)
+
+    Press enter twice to confirm the changes
+
+7. Select save setup as dfl to save the configuration
+
+    ![alt text](../images/mini-4.png)
+
+    Select Exit 
+
 
 ### Continue with [lab2](./lab2.md) now. 
 

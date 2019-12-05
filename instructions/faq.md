@@ -59,7 +59,7 @@
 
 10. Post LWA registration, why I am getting SSL errors on the logs ? 
 
-    -  please re-run the serial commands in lab 2 , ensure there is no typo 
+    - Please re-run the serial commands in lab 2 , ensure there is no typo 
 
     - Power recycle the device and complete the LWA registration again 
 
