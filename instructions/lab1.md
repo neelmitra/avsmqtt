@@ -13,8 +13,9 @@ In this lab, you will learn how to create a Alexa Voice Product. Then you will c
     -   Launch [Team Dashboard](https://dashboard.eventengine.run/dashboard)
     - Paste the 12 digit Hash key provided to you by AWS 
     - Click Accept Terms & Login
-    - Your Team name is your Account ID (copy the full #) 
+    - Your Team name is your Account ID (copy the full # to notepad) 
         - you will need it in section B - Step 8 of this lab
+        - DONOT Change the Team Name 
     - Click AWS Console 
  
 
@@ -82,7 +83,7 @@ If you're a returning developer, click the Products -> CREATE PRODUCT button at 
 
 8. Select the options as below and click Next to Continue.
 
-    <span style="color:orange">Please use the AWS Account # provided to you for the workshop.</span>
+    <span style="color:orange">Please use the AWS Account # you copied in Section A - Step 1.</span>
 
     ![alt text](../images/avs3.png)
 

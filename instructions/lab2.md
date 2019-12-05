@@ -19,7 +19,7 @@ In this lab, you will learn how to configure the NxP microcontroller kit to conn
 2. Connect to the hardware kit using the below instructions - 
     -   Mac -  [screen](./serial.md)
     -   Windows - [putty](./serial.md)
-    -   Linux -  [minicom](./serial.md)
+    -   Linux -  [screen / minicom](./serial.md)
 
 
 2. Once you are connected to device, using the respective terminal software , please **ENTER** and run the below commands , one by one, in the SHELL : 
@@ -28,7 +28,12 @@ In this lab, you will learn how to configure the NxP microcontroller kit to conn
 
     ![alt text](../images/serial.png) 
 
-    Copy the commands from here : 
+    Run the below commands to configure the kit to connect to Alexa Voice Services and AWS IoT services. 
+    
+    - The Client id and Product Id is required for the kit to successfully authenticate to Alexa Voice service 
+    - AWS Account ID and Endpoint URL is required for the kit to successfully authenticate to AWS IoT core
+    - Therefater you enable the code based linking for registering this kit to your Amazon Developer account 
+    - Reset reboots the device with the latest confiigurations 
 
     ```
     set_avs_client_id "copy Client id from config.json"
@@ -37,15 +42,18 @@ In this lab, you will learn how to configure the NxP microcontroller kit to conn
 
     set_aws_endpoint_url "copy IoT core URL from lab1 "
 
-    set_aws_account_id copy_AWS_Account_ID_from_event_engine_dashboard_teamname
+    set_aws_account_id copy_AWS_Account_ID_from_lab1_no_qoutes
 
     set_cbl_mode 1
 
     reset
     ```
 
-    This will restart your device , please connect back to the device using serial command and run the below. 
+    Please give few seconds for the device to restart , and connect back to the device using serial command again , and run the below. 
 
+    - Enable USB logging to monitor the device interaction with AWS IoT Core and AVS
+    - When you talk to Alexa, this console will print the device activity 
+    
     ```
       enable_usb_log
       logs
@@ -75,11 +83,6 @@ In this lab, you will learn how to configure the NxP microcontroller kit to conn
 
     <span style="color:orange"> If connection and auth is successful , the board will only have the power green led on.
     
-    ![alt text](../images/board1.png) 
-
-    <span style="color:orange">If the board is muted there will be a red led on, along with the green power led. 
-    </span>
-
     ![alt text](../images/board2.png) 
 
 ## <span style="color:green"> Try Alexa, time in las vegas </span>
@@ -95,12 +98,12 @@ Please login to the [AWS IoT Console](https://console.aws.amazon.com/iot/) and s
 
 To learn more about AVS Integration for AWS IoT, please click [here](https://developer.amazon.com/docs/alexa-voice-service/avs-for-aws-iot-overview.html).
 
+<span style="color:orange">Please keep the board muted. Press the switch SW1 on the board , and it will mute and turn on the red led. 
+</span>
 
-## <span style="color:green"> Try Alexa, time in las vegas </span> once again on the device 
+![alt text](../images/board1.png) 
 
-And check in the IoT *Test* console  , you will see messages appearing in the monitor console. 
-
-Congratulations! You now have access to the Alexa Voice Service APIs from your hardware and able to subscribe the messages from the hardware using AWS IoT console. 
+Congratulations! You now have access to the Alexa Voice Service APIs from your hardware and able to see connection of the hardware from AWS IoT console. 
 
 ### See you in [lab3](./lab3.md). 
 
