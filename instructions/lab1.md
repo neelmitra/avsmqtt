@@ -36,7 +36,7 @@ In this lab, you will learn how to create a Alexa Voice Product. Then you will c
 
     <font color="red">The endpoint Url might be different for you , than in the screenshot here</font>
 
-    ![alt text](../images/iotend.png)
+    ![alt text](../images/iotendpoint.png)
 
 4. Click here to create [cloudformation-stack-us-east-1](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?stackName=reinventavsmqtt&templateURL=https://s3.amazonaws.com/alexa-reinvent/avs-iot-cfn.yaml)
     
